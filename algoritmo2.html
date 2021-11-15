@@ -1,0 +1,219 @@
+<html>
+
+<head>
+  <title>Algoritmo : ejercicio 1</title>  
+
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h1{
+        color:yellowgreen;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body> 
+<h1>Ejercicio de Algoritmos 2</h1>
+<hr>
+
+<!--
+ ------------------------------------   CASO 1    ------------------------------------
+
+    Case 1
+        N = 0
+        k = 10
+        p = 26
+        resultado = 0
+
+        Inicio
+            Calcular el numero de clics que se deben hacer hasta la pagina 26 si solo se pueden visualizar 10 numeros consecutivos en el menu
+            leer N
+            leer k
+            leer p
+            resultado = 0
+
+            resultado = Numero minimo de veces que dara clic para para de pagina y llegar al objetivo = 26 dividido 10, el resultado se redondea 
+
+        Imprimir resultado
+
+-->
+
+<p class="title">Caso 1</p>
+    <script>
+        var n = 0;
+        var k = 10;
+        var p = 26;
+        resultado = 0;
+
+        resultado = Math.round(p / k);
+
+        document.write("El numero de clics que se pueden dar, comenzando del #10 son ","<b>",resultado , "</b>"," para llegar a la pagina ", p);
+
+
+    </script>
+
+
+<!--
+ ------------------------------------   CASO 2    ------------------------------------
+
+    Case 2
+        N = 0
+        k = 50
+        p = 40
+        resultado = 0
+
+        Inicio
+            Calcular el numero de clics que se deben hacer hasta la pagina 40 si solo se pueden visualizar 10 numeros consecutivos en el menu
+            leer N
+            leer k
+            leer p
+            resultado = 0
+
+            resultado = Numero minimo de veces que dara clic para para de pagina y llegar al objetivo = 40 dividido 50, el resultado se redondea 
+
+        Imprimir resultado
+
+-->
+
+<p class="title">Caso 2</p>
+    <script>
+        var n = 0;
+        var k = 50;
+        var p = 40;
+        resultado = 0;
+
+        resultado = Math.round(p / k);
+
+        document.write("El numero de clics que se pueden dar, comenzando del #50 son ","<b>",resultado , "</b>"," para llegar a la pagina " , p);
+
+
+    </script>
+
+
+<!--
+ ------------------------------------   CASO 3    ------------------------------------
+
+    Case 3
+        N = 0
+        k = 50
+        p = 60
+        resultado = 0
+
+        Inicio
+            Calcular el numero de clics que se deben hacer hasta la pagina 26 si solo se pueden visualizar 10 numeros consecutivos en el menu
+            leer N
+            leer k
+            leer p
+            resultado = 0
+
+            resultado = Numero minimo de veces que dara clic para para de pagina y llegar al objetivo = 60 dividido 50, el resultado se redondea 
+
+        Imprimir resultado
+
+-->
+
+<p class="title">Caso 3</p>
+    <script>
+        var n = 0;
+        var k = 50;
+        var p = 60;
+        resultado = 0;
+
+        resultado = Math.ceil(p / k);
+
+        document.write("El numero de clics que se pueden dar, comenzando del #50 son ","<b>",resultado , "</b>"," para llegar a la pagina ", p);
+
+
+    </script>
+
+
+<!--
+ ------------------------------------   CASO 4    ------------------------------------
+
+    Case 4
+        N = 0
+        k = 100
+        p = 301
+        resultado = 0
+
+        Inicio
+            Calcular el numero de clics que se deben hacer hasta la pagina 301 si solo se pueden visualizar 10 numeros consecutivos en el menu
+            leer N
+            leer k
+            leer p
+            resultado = 0
+
+            resultado = Numero minimo de veces que dara clic para para de pagina y llegar al objetivo = 301 dividido 100, el resultado se redondea 
+
+        Imprimir resultado
+
+-->
+
+<p class="title">Caso 4</p>
+    <script>
+        var n = 0;
+        var k = 100;
+        var p = 301;
+        resultado = 0;
+
+        resultado = Math.ceil(p / k);
+
+        document.write("El numero de clics que se pueden dar, comenzando del #100 son ","<b>",resultado , "</b>"," para llegar a la pagina ", p);
+
+
+    </script>
+
+<!--
+ ------------------------------------   CASO 5    ------------------------------------
+
+    Case 5
+        N = 0
+        k = 85
+        p = 120
+        resultado = 0
+
+        Inicio
+            Calcular el numero de clics que se deben hacer hasta la pagina 120 si solo se pueden visualizar 10 numeros consecutivos en el menu
+            leer N
+            leer k
+            leer p
+            resultado = 0
+
+            resultado = Numero minimo de veces que dara clic para para de pagina y llegar al objetivo = 120 dividido 85, el resultado se redondea 
+
+        Imprimir resultado
+
+-->
+
+<p class="title">Caso 5</p>
+    <script>
+        var n = 0;
+        var k = 100;
+        var p = 120;
+        resultado = 0;
+
+        resultado = Math.ceil(p / k);
+
+        var i 
+            for (i=0;i<= resultado ; i++) 
+            { 
+            document.write("El numero de clics que se pueden dar , comenzando del #100 son ","<b>",i , "</b>"," para llegar a la pagina", p)
+            document.write("<br>") 
+            }
+
+    </script>
+
+<hr>
+<p>By Jaime Alberto Tapasco</p>
+
+</body>
+
+
+
+</html>
+
